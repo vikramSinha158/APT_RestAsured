@@ -1,0 +1,47 @@
+{
+    "activity": {
+        "name": "Receivable Follow-Up",
+        "partOf": {
+            "type": "Process",
+            "identifier": {
+                "type": "name",
+                "value": "BillingAndFollowUp"
+            }
+        },
+        "focus": {
+            "type": "Account",
+            "identifier": {
+                "type": "AccountNumber",
+                "value": "!!!!!"
+            }
+        },
+        "task": [
+            {
+                "name": "ClaimStatusCheck",
+                "performer": {
+                    "code": "@@@@@",
+                    "type": "User"
+                },
+                "status": "Completed",
+                "result": [
+                    {
+                        "text": "*****"
+                    },
+                    {
+                        "text": "~~~~~"
+                    }
+                ],
+                "note": [
+                    {
+                        "text": "#####"
+                    }
+                ]
+            }
+        ]
+    },
+    "account": {
+        "AccountNumber": "!!!!!",
+        "DefectCateogory": "$$$$$",
+        "DefectSubCategory": "%%%%%"
+    }
+}

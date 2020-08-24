@@ -1,0 +1,53 @@
+{
+	"activity": {
+		"name": "Correspondence Indexing",
+		"partOf" :{
+			"type": "Process",
+			"identifier": {
+				"type": "name",
+				"value": "Cash Posting"
+			}
+		},
+		"focus": {
+			"type": "Visit",
+			  "identifier": {
+				"type": "VisitNumber",
+				"value": "!!!!!"
+			  },
+			  "supplement": {
+				"key": "MRN",
+				"value": "1"
+			}
+		},
+		"task": [{
+			"name": "Upload Document",
+			"performer": {
+				"code": "@@@@@",
+				"type": "User"
+			},
+			"focus": {
+				"type": "Document",
+				"identifier" : {
+					"type": "DocumentNumber",
+					"value": "123" 
+				}
+			},
+			"note": [{
+				"text": "#####"
+			}]
+		}]
+	},
+	"document": {
+		"documentNumber":12345,
+		"type": "%%%%%",
+		"status": "",
+		"title": "&&&&&",
+		"name": "User Image",
+		"contentType": "",
+		"size": "",
+		"author": {
+			"type": "User",
+			"code": "$$$$$"
+		}
+	}		
+}
